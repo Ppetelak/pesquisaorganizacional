@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mount Hermon - Pesquisa</title>
+  <link rel="icon" href="img/faviconV2_mounthermon.png" type="image/png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;500;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <div class="container mt-5">
+    <div class="cabecalho">
+      <div class="logo">
+        <img src="img/logomounthermonoriginal.png" alt="logo mount hermon">
+        <h2>Pesquisa</h2>
+      </div>
+      <h3> Olá colaborador(a), </h3>
+      <p>Esta pesquisa de clima organizacional permite identificar pontos fortes e áreas de melhoria no ambiente interno da empresa, fornecendo um diagnóstico preciso sobre o bem-estar e satisfação dos funcionários. Com essas informações, a empresa pode tomar decisões estratégicas para aprimorar o ambiente de trabalho, impulsionando a produtividade, motivação e retenção de talentos. 
+      </p>
+      <p> Agradecemos desde já o seu tempo!</p>
+      <p class="atencao"><strong>Garantia do anonimato:</strong> <br>
+
+        O anonimato da pesquisa é essencial para garantir respostas honestas e evitar medos ou constrangimentos, obtendo uma visão mais realista da empresa.</p>
+    </div>
+    
+    <form id="formulario">
+      <div class="form-group">
+        <label class="pergunta"><span>01 - </span>Qual o nível de satisfação que você possui com a imagem da empresa perante a sociedade?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q1" id="q1-1" value="Muito Satisfeito(a)" required>
+          <label class="form-check-label" for="q1-1">Muito Satisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q1" id="q1-2" value="Satisfeito(a)">
+          <label class="form-check-label" for="q1-2">Satisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q1" id="q1-3" value="Indiferente">
+          <label class="form-check-label" for="q1-3">Indiferente</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q1" id="q1-4" value="Insatisfeito(a)">
+          <label class="form-check-label" for="q1-4">Insatisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q1" id="q1-5" value="Muito Insatisfeito(a)">
+          <label class="form-check-label" for="q1-5">Muito Insatisfeito(a)</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="pergunta"><span>02 - </span>Você se sente orgulhoso por trabalhar aqui?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q2" id="q2-1" value="Sim" required>
+          <label class="form-check-label" for="q2-1">Sim</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q2" id="q2-2" value="Não">
+          <label class="form-check-label" for="q2-2">Não</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="pergunta"><span>03 - </span>Qual o seu nível de satisfação com a comunicação interna da empresa?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q3" id="q3-1" value="Muito Satisfeito(a)" required>
+          <label class="form-check-label" for="q3-1">Muito Satisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q3" id="q3-2" value="Satisfeito(a)">
+          <label class="form-check-label" for="q3-2">Satisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q3" id="q3-3" value="Indiferente">
+          <label class="form-check-label" for="q3-3">Indiferente</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q3" id="q3-4" value="Insatisfeito(a)">
+          <label class="form-check-label" for="q3-4">Insatisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q3" id="q3-5" value="Muito Insatisfeito(a)">
+          <label class="form-check-label" for="q3-5">Muito Insatisfeito(a)</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="pergunta"><span>04 - </span>Você é ouvido pelo seu supervisor e seus pares?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q4" id="q4-1" value="Sim" required>
+          <label class="form-check-label" for="q4-1">Sim</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q4" id="q4-2" value="Não">
+          <label class="form-check-label" for="q4-2">Não</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="pergunta"><span>05 - </span>Qual o seu nível de satisfação com os recursos materiais oferecidos para o bem-estar/desempenhar um bom trabalho?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q5" id="q5-1" value="Muito Satisfeito(a)" required>
+          <label class="form-check-label" for="q5-1">Muito Satisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q5" id="q5-2" value="Satisfeito(a)">
+          <label class="form-check-label" for="q5-2">Satisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q5" id="q5-3" value="Indiferente">
+          <label class="form-check-label" for="q5-3">Indiferente</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q5" id="q5-4" value="Insatisfeito(a)">
+          <label class="form-check-label" for="q5-4">Insatisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q5" id="q5-5" value="Muito Insatisfeito(a)">
+          <label class="form-check-label" for="q5-5">Muito Insatisfeito(a)</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="pergunta"><span>06 - </span>Qual o seu nível de satisfação com o ambiente de trabalho da empresa?</label>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="q6" id="q6-1" value="Muito Satisfeito(a)" required>
+            <label class="form-check-label" for="q6-1">Muito Satisfeito(a)</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="q6" id="q6-2" value="Satisfeito(a)">
+            <label class="form-check-label" for="q6-2">Satisfeito(a)</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="q6" id="q5-3" value="Indiferente">
+            <label class="form-check-label" for="q6-3">Indiferente</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="q6" id="q6-4" value="Insatisfeito(a)">
+            <label class="form-check-label" for="q6-4">Insatisfeito(a)</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="q6" id="q6-5" value="Muito Insatisfeito(a)">
+            <label class="form-check-label" for="q6-5">Muito Insatisfeito(a)</label>
+          </div>
+      </div>
+
+      <div class="form-group">
+        <label class="pergunta"><span>07 - </span>Como você se sente em relação ao seu relacionamento profissional com os seus colegas de trabalho?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q7" id="q7-1" value="Muito Satisfeito(a)" required>
+          <label class="form-check-label" for="q7-1">Muito Satisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q7" id="q7-2" value="Satisfeito(a)">
+          <label class="form-check-label" for="q7-2">Satisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q7" id="q7-3" value="Indiferente">
+          <label class="form-check-label" for="q7-3">Indiferente</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q7" id="q7-4" value="Insatisfeito(a)">
+          <label class="form-check-label" for="q7-4">Insatisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q7" id="q7-5" value="Muito Insatisfeito(a)">
+          <label class="form-check-label" for="q7-5">Muito Insatisfeito(a)</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="pergunta"><span>08 - </span>Como você se sente em relação aos investimentos realizados pela empresa nos funcionários?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q8" id="q8-1" value="Muito Satisfeito(a)" required>
+          <label class="form-check-label" for="q8-1">Muito Satisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q8" id="q8-2" value="Satisfeito(a)">
+          <label class="form-check-label" for="q8-2">Satisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q8" id="q8-3" value="Indiferente">
+          <label class="form-check-label" for="q8-3">Indiferente</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q8" id="q8-4" value="Insatisfeito(a)">
+          <label class="form-check-label" for="q8-4">Insatisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q8" id="q8-5" value="Muito Insatisfeito(a)">
+          <label class="form-check-label" for="q8-5">Muito Insatisfeito(a)</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="pergunta"><span>09 - </span>No último ano você teve alguma oportunidade dentro da empresa de aprendizado e crescimento?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q9" id="q9-1" value="Sim" required>
+          <label class="form-check-label" for="q9-1">Sim</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q9" id="q9-2" value="Não">
+          <label class="form-check-label" for="q9-2">Não</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="pergunta"><span>10 - </span>Como você se sente em relação ao reconhecimento de funcionários que apresentam um bom desempenho?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q10" id="q10-1" value="Muito Satisfeito(a)" required>
+          <label class="form-check-label" for="q10-1">Muito Satisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q10" id="q10-2" value="Satisfeito(a)">
+          <label class="form-check-label" for="q10-2">Satisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q10" id="q10-3" value="Indiferente">
+          <label class="form-check-label" for="q10-3">Indiferente</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q10" id="q10-4" value="Insatisfeito(a)">
+          <label class="form-check-label" for="q10-4">Insatisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q10" id="q10-5" value="Muito Insatisfeito(a)">
+          <label class="form-check-label" for="q10-5">Muito Insatisfeito(a)</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="pergunta"><span>11 - </span>A empresa faz você sentir importância no que faz?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q11" id="q11-1" value="Sim" required>
+          <label class="form-check-label" for="q11-1">Sim</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q11" id="q11-2" value="Não">
+          <label class="form-check-label" for="q11-2">Não</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="pergunta" class="pergunta"><span>12 - </span>Como você se sente em relação à política de remuneração, benefícios e promoções da empresa?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q12" id="q12-1" value="Muito Satisfeito(a)" required>
+          <label class="form-check-label" for="q12-1">Muito Satisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q12" id="q12-2" value="Satisfeito(a)">
+          <label class="form-check-label" for="q12-2">Satisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q12" id="q12-3" value="Indiferente">
+          <label class="form-check-label" for="q12-3">Indiferente</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q12" id="q12-4" value="Insatisfeito(a)">
+          <label class="form-check-label" for="q12-4">Insatisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q12" id="q12-5" value="Muito Insatisfeito(a)">
+          <label class="form-check-label" for="q12-5">Muito Insatisfeito(a)</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="pergunta"><span>13 - </span>Como você se sente em relação à sua preparação para realização do seu trabalho diário?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q13" id="q13-1" value="Muito Satisfeito(a)" required>
+          <label class="form-check-label" for="q13-1">Muito Satisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q13" id="q13-2" value="Satisfeito(a)">
+          <label class="form-check-label" for="q13-2">Satisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q13" id="q13-3" value="Indiferente">
+          <label class="form-check-label" for="q13-3">Indiferente</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q13" id="q13-4" value="Insatisfeito(a)">
+          <label class="form-check-label" for="q13-4">Insatisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q13" id="q13-5" value="Muito Insatisfeito(a)">
+          <label class="form-check-label" for="q13-5">Muito Insatisfeito(a)</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="pergunta"><span>14 - </span>Você tem conhecimento das expectativas da empresa em relação ao seu trabalho?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q14" id="q14-1" value="Sim" required>
+          <label class="form-check-label" for="q14-1">Sim</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q14" id="q14-2" value="Não">
+          <label class="form-check-label" for="q14-2">Não</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="pergunta"><span>15 - </span>Como você se sente em relação ao seu relacionamento profissional com os seus superiores?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q15" id="q15-1" value="Muito Satisfeito(a)" required>
+          <label class="form-check-label" for="q15-1">Muito Satisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q15" id="q15-2" value="Satisfeito(a)">
+          <label class="form-check-label" for="q15-2">Satisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q15" id="q15-3" value="Indiferente">
+          <label class="form-check-label" for="q15-3">Indiferente</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q15" id="q15-4" value="Insatisfeito(a)">
+          <label class="form-check-label" for="q15-4">Insatisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q15" id="q15-5" value="Muito Insatisfeito(a)">
+          <label class="form-check-label" for="q15-5">Muito Insatisfeito(a)</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="pergunta"><span>16 - </span>Como você se sente em relação à transparência no que se refere à tomada de decisões de seus superiores?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q16" id="q16-1" value="Muito Satisfeito(a)" required>
+          <label class="form-check-label" for="q16-1">Muito Satisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q16" id="q16-2" value="Satisfeito(a)">
+          <label class="form-check-label" for="q16-2">Satisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q16" id="q16-3" value="Indiferente">
+          <label l class="form-check-label" for="q16-3">Indiferente</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q16" id="q16-4" value="Insatisfeito(a)">
+          <label class="form-check-label" for="q16-4">Insatisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q16" id="q16-5" value="Muito Insatisfeito(a)">
+          <label class="form-check-label" for="q16-5">Muito Insatisfeito(a)</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="pergunta"><span>17 - </span>Como você se sente em relação à sua autonomia na sugestão de novas ideias e soluções para seus superiores?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q17" id="q17-1" value="Muito Satisfeito(a)" required>
+          <label class="form-check-label" for="q17-1">Muito Satisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q17" id="q17-2" value="Satisfeito(a)">
+          <label class="form-check-label" for="q17-2">Satisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q17" id="q17-3" value="Indiferente">
+          <label l class="form-check-label" for="q17-3">Indiferente</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q17" id="q17-4" value="Insatisfeito(a)">
+          <label class="form-check-label" for="q17-4">Insatisfeito(a)</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q17" id="q17-5" value="Muito Insatisfeito(a)">
+          <label class="form-check-label" for="q17-5">Muito Insatisfeito(a)</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="pergunta"><span>18 - </span>O seu supervisor se importa com você como pessoa?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q18" id="q18-1" value="Sim" required>
+          <label class="form-check-label" for="q18-1">Sim</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q18" id="q18-2" value="Não">
+          <label class="form-check-label" for="q18-2">Não</label>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label class="pergunta"><span>19 - </span>Você se sente apoiado em fazer o seu melhor todos os dias?</label>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q19" id="q19-1" value="Sim" required>
+          <label class="form-check-label" for="q19-1">Sim</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="q19" id="q19-2" value="Não">
+          <label class="form-check-label" for="q19-2">Não</label>
+        </div>
+      </div>
+      <!-- Repita o mesmo padrão para as outras perguntas escalonadas e dicotômicas -->
+
+      <button type="submit" class="btn btn-primary" id="enviarPesquisa">Enviar</button>
+    </form>
+    <div class="mensagens">
+      <div class="obrigado d-none" id="obrigado">
+        <p>
+          Formulário enviado com SUCESSO! Muito obrigado pelo envio! Juntos vamos em frente!
+        </p>
+      </div>
+      <div class="erro d-none" id="erro">
+        <p>
+          Ops, houve um ERRO! Pedimos por gentileza que tente mais uma vez!
+        </p>
+      </div>
+      <div class="inline-error d-none" id="inline-error">
+        <p>
+          Faltou o preenchimento de algum campo, verifique os campos e tente novamente!
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
