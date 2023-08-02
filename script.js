@@ -18,7 +18,7 @@ function enviaDados(){
         inlineError.scrollIntoView({ behavior: 'smooth', block: 'end' });
     } else {
         $.ajax({
-            url: 'https://script.google.com/macros/s/AKfycbyuFARo2zP7ea7DJk-ClDUBuPwYu7juGUCrqqurVkvo_Hw13Rk-vMpwCJ_y5ecDapPZ/exec',
+            url: '', //coloque aqui o link do seu link de api gerado lá no Google
             method: 'POST',
             data: formData,
             processData: false,
